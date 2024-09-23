@@ -52,7 +52,7 @@ exports.eliminarMateria = async (req, res) => {
     if (!materia) {
       res.status(404).json({ message: "materia no encontrada" });
     }
-    res.status(200).json({ message: `Materia con ${idMateria}eliminado` });
+    res.status(200).json({ message: `Materia con ${idMateria} eliminado` });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
