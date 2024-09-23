@@ -17,4 +17,5 @@
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of item to fetch |
 
-
+# como correrlo
+npm run dev
