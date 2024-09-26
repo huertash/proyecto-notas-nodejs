@@ -17,6 +17,7 @@ afterAll(async () => {
 
 describe("CRUD Estudiantes con JWT", () => {
   it("Deberia crear un nuevo estudiante", async () => {
+   // llamado al endpoint
     const token = generarToken();
     const res = await request(app)
       .post("/api/estudiantes")
